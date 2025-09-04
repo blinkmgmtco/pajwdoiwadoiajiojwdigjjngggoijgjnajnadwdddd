@@ -1,0 +1,37 @@
+2025-09-04 12:02:10,214 - WARNING - Couldn't load groups for profile 117: Group file not found: ../configs\grouplinks\117\groups.txt
+2025-09-04 12:02:10,214 - INFO - Loaded 1 accounts
+2025-09-04 12:02:10,214 - INFO - Starting cycle 1
+2025-09-04 12:02:12,280 - INFO - Grid setup complete for 1 windows
+2025-09-04 12:02:24,583 - INFO - Initializing IXBrowser for profile 117
+2025-09-04 12:02:33,848 - ERROR - Failed to position window (attempt 1): Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF75EA72975+53717]
+	simdutf::get_active_implementation [0x00007FF75E897CF7+1747783]
+	(No symbol) [0x00007FF75E535DA9]
+	(No symbol) [0x00007FF75E520D70]
+	(No symbol) [0x00007FF75E54539D]
+	(No symbol) [0x00007FF75E5B6662]
+	(No symbol) [0x00007FF75E5CF332]
+	(No symbol) [0x00007FF75E5AD0D3]
+	(No symbol) [0x00007FF75E5791CE]
+	(No symbol) [0x00007FF75E578209]
+	(No symbol) [0x00007FF75E578F6C]
+	GetHandleVerifier [0x00007FF75EA91BDD+181309]
+	sqlite3_dbdata_init [0x00007FF75ED355B2+2262482]
+	sqlite3_dbdata_init [0x00007FF75ED34F54+2260852]
+	sqlite3_dbdata_init [0x00007FF75ED30C2B+2243659]
+	sqlite3_dbdata_init [0x00007FF75ED35E57+2264695]
+	simdutf::get_active_implementation [0x00007FF75E8B24CB+1856283]
+	simdutf::get_active_implementation [0x00007FF75E8A47B4+1799684]
+	simdutf::get_active_implementation [0x00007FF75E8A494B+1800091]
+	simdutf::get_active_implementation [0x00007FF75E88484C+1668764]
+	BaseThreadInitThunk [0x00007FF97FC5E8D7+23]
+	RtlUserThreadStart [0x00007FF98163C34C+44]
+
+2025-09-04 13:10:33,610 - WARNING - Couldn't load groups for profile 117: Group file not found: ../configs\grouplinks\117\groups.txt
+2025-09-04 13:10:33,610 - INFO - Loaded 1 accounts
+2025-09-04 13:10:33,610 - INFO - Starting cycle 1
+2025-09-04 13:10:35,683 - INFO - Grid setup complete for 1 windows
+2025-09-04 13:10:47,978 - INFO - Initializing IXBrowser for profile 117
