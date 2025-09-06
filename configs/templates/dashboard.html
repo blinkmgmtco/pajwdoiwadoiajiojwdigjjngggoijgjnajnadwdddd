@@ -1745,7 +1745,7 @@ function scrapingComplete(success = true) {
 
 
 
-                <!-- Dashboard Module -->
+                <!-- Dashboard Module 
                 <div id="dashboardModule" class="module-container">
                     <div class="header-section">
                         <h2><i class="bi bi-speedometer2"></i> Bot Dashboard</h2>
@@ -1772,11 +1772,10 @@ function scrapingComplete(success = true) {
                     <div class="table-container">
                         <h4>Bot Modules</h4>
                         <div class="module-grid" id="modulesGrid">
-                            <!-- Modules will be loaded here -->
                         </div>
                     </div>
                 </div>
-
+-->
                 <!-- Mass DM Module -->
                 <div id="massDmModule" class="module-container">
                     <div class="header-section">
@@ -2602,7 +2601,7 @@ document.addEventListener('DOMContentLoaded', function() {
         loadGroupNames();
         loadMembersToAdd();
         loadSlaveAccounts();
-        loadModules();
+        //loadModules();
         
         // Check bot status immediately on page load
         checkBotStatus();
@@ -5064,7 +5063,7 @@ function fetchBotStats() {
         .then(data => {
             if (data.success) {
                 updateModuleStatus(botName, data.running);
-                updateDashboardCounts(data.modules);
+                //updateDashboardCounts(data.modules);
                 
                 if (botName === 'retweetbot') {
                     // Add a small delay to show the starting state briefly
@@ -5111,23 +5110,8 @@ function fetchBotStats() {
         }
     }
 
-    // Load modules for dashboard
-    async function loadModules() {
-        try {
-            const response = await fetch(apiEndpoints.botStatus);
-            if (!response.ok) {
-                throw new Error('Failed to load modules');
-            }
-            const data = await response.json();
-            renderModules(data.modules);
-            updateDashboardCounts(data.modules);
-        } catch (error) {
-            console.error('Error loading modules:', error);
-            showAlert('Error loading modules: ' + error.message, 'danger');
-        }
-    }
-    
 
+    
     function renderModules(modules) {
         const container = document.getElementById('modulesGrid');
         
@@ -5184,7 +5168,7 @@ function fetchBotStats() {
                         updateRtBotButtonStatus(info.running);
                     }
                 }
-                updateDashboardCounts(data.modules);
+                //updateDashboardCounts(data.modules);
             })
             .catch(error => console.error('Error checking status:', error));
     }

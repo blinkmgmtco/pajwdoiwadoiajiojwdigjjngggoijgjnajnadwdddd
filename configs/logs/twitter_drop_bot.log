@@ -35,3 +35,44 @@ Stacktrace:
 2025-09-04 13:10:33,610 - INFO - Starting cycle 1
 2025-09-04 13:10:35,683 - INFO - Grid setup complete for 1 windows
 2025-09-04 13:10:47,978 - INFO - Initializing IXBrowser for profile 117
+2025-09-06 09:52:26,155 - WARNING - Couldn't load groups for profile 117: Group file not found: ../configs\grouplinks\117\groups.txt
+2025-09-06 09:52:26,157 - INFO - Loaded 1 accounts
+2025-09-06 09:52:26,164 - INFO - Starting cycle 1
+2025-09-06 09:52:26,902 - WARNING - Couldn't load groups for profile 117: Group file not found: ../configs\grouplinks\117\groups.txt
+2025-09-06 09:52:26,904 - INFO - Loaded 1 accounts
+2025-09-06 09:52:26,907 - INFO - Starting cycle 1
+2025-09-06 09:52:28,250 - INFO - Grid setup complete for 1 windows
+2025-09-06 09:52:28,981 - INFO - Grid setup complete for 1 windows
+2025-09-06 09:52:40,505 - INFO - Initializing IXBrowser for profile 117
+2025-09-06 09:52:41,332 - INFO - Initializing IXBrowser for profile 117
+2025-09-06 09:52:54,407 - ERROR - Failed to open profile 117
+2025-09-06 09:53:48,220 - ERROR - Browser initialization failed for profile 117: Message: session not created: cannot connect to chrome at 127.0.0.1:7035
+from chrome not reachable; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF783732975+53717]
+	simdutf::get_active_implementation [0x00007FF783557CF7+1747783]
+	(No symbol) [0x00007FF7831F5C4D]
+	(No symbol) [0x00007FF7831E65A7]
+	(No symbol) [0x00007FF7832342A2]
+	(No symbol) [0x00007FF78322A609]
+	(No symbol) [0x00007FF78327C7BF]
+	(No symbol) [0x00007FF78327BED0]
+	(No symbol) [0x00007FF78326D0D3]
+	(No symbol) [0x00007FF7832391CE]
+	(No symbol) [0x00007FF783238209]
+	(No symbol) [0x00007FF783238F6C]
+	GetHandleVerifier [0x00007FF783751BDD+181309]
+	sqlite3_dbdata_init [0x00007FF7839F55B2+2262482]
+	sqlite3_dbdata_init [0x00007FF7839F4F54+2260852]
+	sqlite3_dbdata_init [0x00007FF7839F0C2B+2243659]
+	sqlite3_dbdata_init [0x00007FF7839F5E57+2264695]
+	simdutf::get_active_implementation [0x00007FF7835724CB+1856283]
+	simdutf::get_active_implementation [0x00007FF7835647B4+1799684]
+	simdutf::get_active_implementation [0x00007FF78356494B+1800091]
+	simdutf::get_active_implementation [0x00007FF78354484C+1668764]
+	BaseThreadInitThunk [0x00007FF97FC5E8D7+23]
+	RtlUserThreadStart [0x00007FF98163C34C+44]
+
+2025-09-06 09:54:00,691 - INFO - Cycle 1 completed
+2025-09-06 09:54:00,695 - ERROR - Fatal error: 'TwitterDropBot' object has no attribute 'countdown_timer'
+2025-09-06 09:54:00,695 - INFO - Cleaning up resources...

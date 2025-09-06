@@ -1,0 +1,38 @@
+2025-09-06 09:56:37,259 - INFO - Loaded 1 accounts
+2025-09-06 09:56:40,278 - INFO - Grid setup complete for 1 windows: 1 positions calculated
+2025-09-06 09:56:40,280 - INFO - Initializing IXBrowser for profile 117
+2025-09-06 09:56:49,832 - WARNING - Window position verification failed. Expected: (10, 10) 1900x1000, Got: (10, 10) 1298x738
+2025-09-06 09:56:52,711 - WARNING - Window position verification failed. Expected: (10, 10) 1900x1000, Got: (10, 10) 1298x738
+2025-09-06 09:56:57,380 - WARNING - Window position verification failed. Expected: (10, 10) 1900x1000, Got: (10, 10) 1298x738
+2025-09-06 09:56:57,382 - WARNING - Failed to position browser for profile 117
+2025-09-06 09:56:57,383 - INFO - Browser initialized for profile 117
+2025-09-06 09:57:17,815 - ERROR - Messages nav failed: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C28E2975+53717]
+	simdutf::get_active_implementation [0x00007FF6C2707CF7+1747783]
+	(No symbol) [0x00007FF6C23A5C4D]
+	(No symbol) [0x00007FF6C2391EF7]
+	(No symbol) [0x00007FF6C2390CE7]
+	(No symbol) [0x00007FF6C23B539D]
+	(No symbol) [0x00007FF6C2426662]
+	(No symbol) [0x00007FF6C243F332]
+	(No symbol) [0x00007FF6C241D0D3]
+	(No symbol) [0x00007FF6C23E91CE]
+	(No symbol) [0x00007FF6C23E8209]
+	(No symbol) [0x00007FF6C23E8F6C]
+	GetHandleVerifier [0x00007FF6C2901BDD+181309]
+	sqlite3_dbdata_init [0x00007FF6C2BA55B2+2262482]
+	sqlite3_dbdata_init [0x00007FF6C2BA4F54+2260852]
+	sqlite3_dbdata_init [0x00007FF6C2BA0C2B+2243659]
+	sqlite3_dbdata_init [0x00007FF6C2BA5E57+2264695]
+	simdutf::get_active_implementation [0x00007FF6C27224CB+1856283]
+	simdutf::get_active_implementation [0x00007FF6C27147B4+1799684]
+	simdutf::get_active_implementation [0x00007FF6C271494B+1800091]
+	simdutf::get_active_implementation [0x00007FF6C26F484C+1668764]
+	BaseThreadInitThunk [0x00007FF97FC5E8D7+23]
+	RtlUserThreadStart [0x00007FF98163C34C+44]
+
+2025-09-06 09:57:21,595 - INFO - Starting cleanup...
+2025-09-06 09:57:21,988 - INFO - Cleanup completed
