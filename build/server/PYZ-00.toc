@@ -1,5 +1,4 @@
-('C:\\Users\\marsh\\OneDrive\\Documents\\GitHub\\agencybots\\Twitter realease '
- '1\\build\\server\\PYZ-00.pyz',
+('C:\\Users\\marsh\\OneDrive\\Documents\\GitHub\\pajwdoiwadoiajiojwdigjjngggoijgjnajnadwdddd\\build\\server\\PYZ-00.pyz',
  [('__future__',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\\Lib\\__future__.py',

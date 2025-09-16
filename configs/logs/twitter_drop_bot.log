@@ -76,3 +76,7 @@ Stacktrace:
 2025-09-06 09:54:00,691 - INFO - Cycle 1 completed
 2025-09-06 09:54:00,695 - ERROR - Fatal error: 'TwitterDropBot' object has no attribute 'countdown_timer'
 2025-09-06 09:54:00,695 - INFO - Cleaning up resources...
+2025-09-16 12:22:11,848 - WARNING - Couldn't load groups for profile 117: Group file not found: ../configs\grouplinks\117\groups.txt
+2025-09-16 12:22:11,851 - INFO - Loaded 1 accounts
+2025-09-16 12:22:11,851 - INFO - Starting cycle 1
+2025-09-16 12:22:13,939 - INFO - Grid setup complete for 1 windows

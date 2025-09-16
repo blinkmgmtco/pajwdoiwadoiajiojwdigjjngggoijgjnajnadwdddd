@@ -36,3 +36,6 @@ Stacktrace:
 
 2025-09-06 09:57:21,595 - INFO - Starting cleanup...
 2025-09-06 09:57:21,988 - INFO - Cleanup completed
+2025-09-16 12:22:31,799 - INFO - Loaded 1 accounts
+2025-09-16 12:22:34,801 - INFO - Grid setup complete for 1 windows: 1 positions calculated
+2025-09-16 12:22:34,801 - INFO - Initializing IXBrowser for profile 117
